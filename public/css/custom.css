@@ -14,6 +14,11 @@
     height: 350px;
     border: 1px solid #ccc;
     margin-bottom: 2px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .box.red b,
