@@ -1,0 +1,35 @@
+/*
+ *
+ * Custom css Styles
+ *
+ */
+
+.column {
+    float: left;
+    margin-right: 2px;
+}
+
+.box {
+    width: 50px;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin-bottom: 2px;
+}
+
+.box.red b,
+.box.blue b {
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 25px;
+    margin: 0px auto;
+    margin-top: 1px;
+}
+
+.box.red b {
+    background-color: #f00;
+}
+
+.box.blue b {
+    background-color: #05f;
+}
