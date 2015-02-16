@@ -27,13 +27,19 @@ connectfour.config(['$routeProvider',function($routeProvider) {
 /*
  * Custom Directives
  */
-var colmuns = [[], [], [], [], [], []];
+var colmuns = [[], [], [], [], [], []],
+    initial = 'red';
 
 connectfour.directive('addDot', function() {
     return function(scope, element, attrs){
         element.click(function() {
+            if (initial == 'red') {
+                initial = 'blue';
+            } else {
+                initial = 'red';
+            };
             var box = element.find('.box');
-            box.addClass('red').append('<b></b>');
+            box.append('<b class=\"'+initial+'\"></b>');
         })
     }
 });

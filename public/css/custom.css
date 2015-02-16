@@ -21,8 +21,8 @@
     transform: rotate(180deg);
 }
 
-.box.red b,
-.box.blue b {
+b.red,
+b.blue {
     width: 45px;
     height: 45px;
     display: block;
@@ -31,10 +31,10 @@
     margin-top: 1px;
 }
 
-.box.red b {
+b.red {
     background-color: #f00;
 }
 
-.box.blue b {
+b.blue {
     background-color: #05f;
 }
